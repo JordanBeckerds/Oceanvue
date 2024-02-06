@@ -1,0 +1,651 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    gap: 0px;  
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 200vh;
+    width: 100vw;
+    background-color: #EFF2DF;
+}
+
+header {
+    background: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    background-color: #011725;
+    justify-content: space-between;
+}
+
+main {
+    
+}
+
+footer {
+    height: 25vh;
+    display: flex;
+    background-color: #011725;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ids */
+
+/* header */
+
+#logo_img {
+    height: 16vh;
+    border: double 10px #E5B330;
+    border-radius: 50%;
+    margin: 0px 0px 0px 3em;
+}
+
+#nav_links {
+    display: flex;
+    gap: 6em;
+    margin: 0px 3em 0px 0px;
+}
+
+#nav_links .nav_link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* main */
+
+/* sec 1 */
+
+#sec_1 {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#title {
+    font-size: 20vh;
+    color: #011725;
+} 
+
+#arrow_down {
+    height: 5vh;
+}
+
+#arrow_down:hover {
+    cursor: pointer;
+}
+
+/* sec 2 */
+
+#sec_2 {
+    height: 225vh;
+    width: 100vw;
+    background-color: #011725;
+    display: flex;
+    line-height: 5vh;
+    flex-direction: column;
+    align-items: center;
+    color: #E5B330;
+}
+
+#sec_2_title {
+    font-size: 6vh;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 10vh 0px 0px 0px;
+}
+
+#sec_2_act_box {
+    display: flex;
+    gap: 10vh;
+}
+
+#nsi_box {
+    margin: 15vh 0px 0px 0px;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+
+#nsi_txt {
+    text-align: center;
+    font-size: 2.5vh;
+    width: 80%;
+    font-weight: 800;
+}
+
+#nsi_btn {
+    height: 3vh;
+    border: solid #E5B330;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#nsi_btn:hover {
+    background-color: #021f31;
+}
+
+/* sub_sec_1 */
+
+#sub_sec_1 {
+    height: 80vh;
+    width: 90vw;
+    margin: -40vh 0px 0px 5vw;
+    position: static;
+    background-color: #EFF2DF;
+    border: double 15px #011725;
+    border-radius: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sub_sec_1:hover {
+    background-color: #011725;
+    transition: background-color 0.5s ease;
+    border-color: #E5B330;
+}
+
+#sub_sec_1:hover #rest_txt {
+    color: #E5B330;
+    transition: color 0.2s ease;
+}
+
+#rest_txt {
+    color: #011725;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 45%;
+    font-size: 2.5vh;
+    line-height: 3vh;
+    margin: 0px 5vw 0px 0px;
+}
+
+#rest_img {
+    height: 55vh;
+    margin: 0px 0px 0px 5vw;
+    border-radius: 20px;
+}
+
+#rest_title {
+    font-size: 4vh;
+    margin: 0px 0px 3vh 0px;
+}
+
+/* sec_3 */
+
+#sec_3 {
+    height: 175vh;
+    background-color: #EFF2DF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#rest_logo {
+    height: 5vh;
+}
+
+#menu_box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15vh 0px 0px 0px;
+}
+
+#menu_title {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+#sml_txt {
+    font-size: 2vh;
+}
+
+#menus_box {
+    margin: 5vh 0px 0px 0px;
+    text-align: center;
+    width: 35vw;
+}
+
+/* sec_4 */
+
+#sec_4 {
+    height: 200vh;
+    width: 100vw;
+    background-color: #011725;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* footer */
+
+#footer_links {
+    margin: 0px 0px 0px 5vw;
+    line-height: 4vh;
+}
+
+#footer_map {
+    margin: 0px 2vw 1vw 0px;
+}
+
+/* class */
+
+/* header */
+
+.nav_link {
+    font-size: 2vh;
+    text-transform: uppercase;
+    color: #E5B330;
+}
+
+/* main */
+
+/* sec 1 */
+
+/* sec 2 */
+
+.act_title {
+    text-align: center;
+    margin: 10vh 0px 2.5vh 0px;
+    font-size: 3vh;
+    text-transform: uppercase;
+    color: #E5B330;
+}
+
+.act_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: double #E5B330 8px;
+    border-radius: 50px;
+    height: 70vh;
+    width: 18vw;
+    background-color: #011725;
+}
+
+.act_box:hover {
+    background-color: #021f31;
+}
+
+.act_box:hover {
+    cursor: pointer;
+}
+
+.act_img {
+    height: 30%;
+    width: 100%;
+    border-radius: 45px 45px 0px 0px;
+    border-bottom: solid #E5B330;
+}
+
+.act_txt {
+    width: 80%;
+    text-align: center;
+    font-size: 2vh;
+    line-height: 3.5vh;
+    margin: 2vh 0px 0px 0px;
+    color: #E5B330;
+}
+
+/* sec 3 */
+
+.menu_content_title {
+    text-align: left;
+    margin: 2vh 0px 0px 0px;
+}
+
+.menu_content {
+    text-align: left;
+    margin: 1vh 0px 0px 0px;
+    line-height: 3.25vh;
+}
+
+/* sec 4 */
+
+.room_box {
+    height: 40vh;
+    width: 85vw;
+    margin: 15vh 0px 0px 0px;
+    border: double 10px #E5B330;
+    display: flex;
+}
+
+.room_box .room_txt:hover {   
+    background-color: #021f31;
+    cursor: pointer;
+}
+
+.room_img {
+    height: 100%;
+    width: 25%;
+    border-right: double 10px #E5B330;
+}
+
+.room_txt {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.room_title_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.room_title {
+    font-size: 4vh;
+    width: 70%;
+    padding: 2vh;
+    border-right: double 10px #E5B330;
+    border-bottom: double 10px #E5B330;
+    text-align: center;
+    color: #E5B330;
+}
+
+.room_price {
+    font-size: 4vh;
+    width: 30%;
+    padding: 2vh;
+    border-bottom: double 10px #E5B330;
+    text-align: center;
+    color: #E5B330;
+}
+
+.room_desc_title {
+    font-size: 3vh;
+    margin: 15px;
+    color: #E5B330;
+}
+
+.room_desc {
+    font-size: 2.5vh;
+    margin: 10px 10px 0px 20px;
+    line-height: 3vh;
+    color: #E5B330;
+}
+
+/* footer */
+
+.footer_link {
+    display: flex;
+    align-items: center;
+    color: #E5B330;
+    gap: 0.5vw;
+}
+
+.footer_link img {
+    height: 3vh;
+}
+
+/* media */
+
+@media screen and (max-width: 900px) {
+
+    /* ids */
+
+    /* header */
+
+    #logo_img {
+        height: 14vh;
+        border-width: 5px;
+        margin: 0px 0px 0px 1em;
+    }
+
+    #nav_links {
+        display: flex;
+        gap: 3em;
+        margin: 0px 3em 0px 0px;
+    }
+
+    /* sec 1 */
+
+    /* sec 2 */
+
+    #sec_2 {
+        height: 375vh;
+        width: 100vw;
+        background-color: #011725;
+        display: flex;
+        line-height: 5vh;
+        flex-direction: column;
+        align-items: center;
+        color: #E5B330;
+    }
+
+    #sec_2_act_box {
+        display: flex;
+        gap: 20vh;
+        row-gap: 5vh;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #nsi_box {
+        margin: 15vh 0px 0px 0px;
+        height: 80vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+    }
+
+    #nsi_txt {
+        text-align: center;
+        font-size: 2.5vh;
+        width: 80%;
+        font-weight: 800;
+    }
+
+    #nsi_btn {
+        height: 3vh;
+        border: solid #E5B330;
+        border-radius: 50%;
+        padding: 10px;
+    }
+
+    #nsi_btn:hover {
+        background-color: #021f31;
+    }
+
+
+    /* sec_3 */
+
+    #sec_3 {
+        height: 200vh;
+        background-color: #EFF2DF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #rest_logo {
+        height: 5vh;
+    }
+
+    #menu_box {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 15vh 0px 0px 0px;
+    }
+
+    #menu_title {
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+        font-size: 35px;
+    }
+
+    #sml_txt {
+        font-size: 2vh;
+    }
+
+    #menus_box {
+        margin: 5vh 0px 0px 0px;
+        text-align: center;
+        width: 35vw;
+    }
+
+    /* class */
+
+    /* header */
+
+    .nav_link {
+        font-size: 2vh;
+        text-transform: uppercase;
+        color: #E5B330;
+    }
+
+    /* main */
+
+    /* sec 1 */
+
+    /* sec 2 */
+
+    .act_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: double #E5B330 8px;
+        border-radius: 50px;
+        height: 80vh;
+        width: 35vw;
+        background-color: #011725;
+    }
+
+    .act_box:hover {
+        background-color: #021f31;
+    }
+
+    .act_box:hover {
+        cursor: pointer;
+    }
+
+    .act_img {
+        height: 30%;
+        width: 100%;
+        border-radius: 45px 45px 0px 0px;
+        border-bottom: solid #E5B330;
+    }
+
+    .act_txt {
+        width: 80%;
+        text-align: center;
+        font-size: 3.5vh;
+        line-height: 3.5vh;
+        margin: 2vh 0px 0px 0px;
+        color: #E5B330;
+    }
+
+    /* sec 3 */
+
+    .menu_content_title {
+        text-align: left;
+        margin: 2vh 0px 0px 0px;
+        font-size: 15px;
+    }
+
+    .menu_content {
+        text-align: left;
+        margin: 1vh 0px 0px 0px;
+        line-height: 3.25vh;
+        font-size: 10px;
+    }
+
+    /* sec 4 */
+
+    .room_box {
+        height: 40vh;
+        width: 85vw;
+        margin: 15vh 0px 0px 0px;
+        border: double 10px #E5B330;
+        display: flex;
+    }
+
+    .room_box .room_txt:hover {   
+        background-color: #021f31;
+        cursor: pointer;
+    }
+
+    .room_img {
+        height: 100%;
+        width: 25%;
+        border-right: double 10px #E5B330;
+    }
+
+    .room_txt {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .room_title_box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .room_title {
+        font-size: 4vh;
+        width: 70%;
+        padding: 2vh;
+        border-right: double 10px #E5B330;
+        border-bottom: double 10px #E5B330;
+        text-align: center;
+        color: #E5B330;
+    }
+
+    .room_price {
+        font-size: 4vh;
+        width: 30%;
+        padding: 2vh;
+        border-bottom: double 10px #E5B330;
+        text-align: center;
+        color: #E5B330;
+    }
+
+    .room_desc_title {
+        font-size: 3vh;
+        margin: 15px 15px 10px 15px;
+        color: #E5B330;
+    }
+
+    .room_desc {
+        font-size: 2.5vh;
+        margin: 0px 10px 0px 20px;
+        line-height: 3vh;
+        color: #E5B330;
+    }
+}
